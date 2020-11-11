@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.reseña-header h2{
+    padding: 20px;
+}
+
+.reseña-body {
+    display: flex;
+}
+
+.hotel-info {
+    padding: 16px;
+    border-radius: 2px;
+    border: 1px solid #9c9c9c;
+    background-color: #dddddd;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 16px;
+}
+
+.hotel-info-container {
+    max-width: 300px;
+}
+
+.hotel-name {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hotel-location {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hotel-picture {
+    width: 200px;
+}
+
+.rating {
+    color: darkorange;
+}
+
+.stars {
+    max-width: 100px;
+}
